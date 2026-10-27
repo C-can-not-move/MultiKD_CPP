@@ -47,7 +47,10 @@ set(APP_SOURCES
     # train
     "src/train/batch.h"
     "src/train/trainer.h"
-    "src/train/trainer.cpp")
+    "src/train/trainer.cpp"
+    # 自检
+    "src/test_tool.h"
+    "src/test_tool.cpp")
 add_executable(MultiKD_C++ ${APP_SOURCES})
 
 # ---------------- 头文件路径与链接 ----------------
